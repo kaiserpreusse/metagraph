@@ -1,0 +1,8 @@
+name: UniProt
+type: database
+entities:
+  - protein
+  - protein sequence
+relations:
+  - from: protein
+    to: biological process

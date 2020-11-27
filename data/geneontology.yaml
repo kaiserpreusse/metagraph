@@ -1,0 +1,6 @@
+name: Gene Ontology
+type: ontology
+entities:
+  - biological process
+  - cellular component
+  - molecular function

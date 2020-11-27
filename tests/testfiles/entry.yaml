@@ -1,0 +1,9 @@
+name: miRBase
+type: database
+entities:
+  - microRNA
+relations:
+  - from: microRNA
+    to: gene
+  - from: microRNA
+  - to: transcript
